@@ -1,0 +1,3 @@
+local A_1 = "PlayerSellHouse"
+local Event = game:GetService("ReplicatedStorage").RemoteEvents.PlayerHouseChoice
+Event:FireServer(A_1)
